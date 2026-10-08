@@ -1,7 +1,7 @@
 // ====== THÔNG TIN BLYNK ======
 #define BLYNK_TEMPLATE_ID "TMPL6JE30DzKE"
 #define BLYNK_TEMPLATE_NAME "HETHONGTINHTIENESP32"
-#define BLYNK_AUTH_TOKEN "qrFmkwFRul8mMqBRNGdcX8qzav6La609"
+#define BLYNK_AUTH_TOKEN "YOUR_TOKEN"
 
 #include <Wire.h>
 #include <SH1106Wire.h>
@@ -10,8 +10,8 @@
 #include <BlynkSimpleEsp32.h>
 
 // ====== THÔNG TIN WIFI ======
-const char* ssid = "Redmi10C";
-const char* password = "11111111";
+const char* ssid = "wifi";
+const char* password = "Password";
 
 // ====== CHÂN KẾT NỐI ======
 #define OLED_SDA 21
